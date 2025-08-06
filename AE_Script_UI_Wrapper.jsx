@@ -12,7 +12,7 @@
 function scriptUI(thisObj) {
     var win = (thisObj instanceof Panel)
         ? thisObj
-        : new Window("palette", "My Script Name (place in ScriptUI Panels)", undefined, { resizeable: true });
+        : new Window("palette", "My Script Name (add Your Script Name Here)", undefined, { resizeable: true });
 
     // UI Elements Are Defined Here
 
