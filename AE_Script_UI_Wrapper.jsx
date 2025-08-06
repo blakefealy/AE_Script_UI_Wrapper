@@ -13,7 +13,8 @@ function scriptUI(thisObj) {
     var win = (thisObj instanceof Panel)
         ? thisObj
         : new Window("palette", "My Script Name (add Your Script Name Here)", undefined, { resizeable: true });
-
+        win.orientation = "column";
+    
     // UI Elements Are Defined Here
 
     win.layout.layout(true);
